@@ -1,0 +1,35 @@
+.people{
+    background-image: url("../../images/last.png") ;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-color: #280A66;
+    width: 100%;
+    height: 150vh;
+    
+   
+}
+
+.role-color{
+    color: #19025B; 
+    font-weight: 900;
+}
+
+.imgBox{
+    margin-top: 30px;
+}
+
+.images{
+    width: 100px;
+}
+
+@media screen and (min-width: 480px) {
+    .images{
+        width: 70px;
+    }
+
+    .people{
+        height: 100%;
+    }
+    
+}

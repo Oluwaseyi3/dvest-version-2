@@ -1,0 +1,42 @@
+.info-second{
+    background-image: url("../../images/backgrouda.png") ;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-color: azure;
+    width: 100%;
+    height: 150vh; 
+   
+    
+}
+
+
+.backImage{
+    width: 28rem;
+}
+ 
+@media screen and (min-width: 480px) {
+    
+    .info-second{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+} 
+
+@media screen and (max-width: 480px) {
+    
+    .backImage{
+        width: 20rem;
+        
+    }
+
+    .info-second{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+} 
+

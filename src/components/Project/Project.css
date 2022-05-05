@@ -1,0 +1,69 @@
+.backerers{
+    background-image: url("../../images/terra.png") ;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-color: #280A66;
+    width: 100%;
+    height: 80vh;
+    
+   
+}
+
+.mobile-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.first{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 70vh;
+}
+
+.second{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 70vh;
+}
+
+@media screen and (min-width: 480px) {
+    .divImages{
+        width: 10rem;
+    }
+
+    .divImages-endless{
+        width: 5.9rem;
+        margin-right: 25px;
+    }
+
+    .backerers{
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .divImages{
+        width: 8rem;
+    }
+
+    .divImages-endless{
+        width: 5rem;
+        margin-right: 25px;
+    }
+    
+    .backerers{
+        height: 100%;
+    }
+} 

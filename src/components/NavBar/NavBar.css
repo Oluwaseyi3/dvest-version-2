@@ -1,0 +1,44 @@
+/* 
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  
+}
+
+header .navigation{
+    position: relative;
+    display: flex;
+
+}
+
+header .navigation li{
+    list-style: none;
+} */
+
+.logos{
+    width: 5rem;
+}
+
+.mobile-view{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 30vh;
+    background-color: #19025B;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.mobile-text:hover{
+    color: #000000;
+}
